@@ -47,21 +47,21 @@ console.log('Page2: ', page2);
 
 // ============ GENERIC ============
 // task-1
-import { fetchData } from './generics/1';
+import { getUsers } from './generics/1';
 
-console.log(fetchData);
+console.log(getUsers());
 
 // task-2
-import { compare } from './generics/2';
+import { result } from './generics/2';
 
-console.log(compare);
+console.log(result);
 
 // task-3
-import { merge } from './generics/3';
+import { mergedObj } from './generics/3';
 
-console.log(merge);
+console.log(mergedObj);
 
-// task-5
+// task-4
 import { createOrUpdateUser } from './generics/4';
 
 const updatedUserInfo = createOrUpdateUser({ 
@@ -70,3 +70,17 @@ const updatedUserInfo = createOrUpdateUser({
 });
 
 console.log(updatedUserInfo);
+
+// task-5
+import { UserRole, RoleDescription } from './generics/5';
+
+console.log(UserRole);
+console.log(RoleDescription);
+
+// task-6
+import { formData, paramsData } from './generics/6';
+
+console.log(formData);
+console.log(paramsData);
+
+
