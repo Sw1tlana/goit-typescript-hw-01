@@ -46,6 +46,27 @@ console.log('Page1: ', page1);
 console.log('Page2: ', page2);
 
 // ============ GENERIC ============
+// task-1
+import { fetchData } from './generics/1';
 
+console.log(fetchData);
 
+// task-2
+import { compare } from './generics/2';
 
+console.log(compare);
+
+// task-3
+import { merge } from './generics/3';
+
+console.log(merge);
+
+// task-5
+import { createOrUpdateUser } from './generics/4';
+
+const updatedUserInfo = createOrUpdateUser({ 
+  email: 'new.email@example.com', 
+  password: 'newPassword123' 
+});
+
+console.log(updatedUserInfo);
