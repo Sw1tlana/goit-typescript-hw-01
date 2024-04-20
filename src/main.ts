@@ -47,19 +47,19 @@ console.log('Page2: ', page2);
 
 // ============ GENERIC ============
 // task-1
-import { getUsers } from './generics/1';
+import { fetchData } from './generics/1';
 
-console.log(getUsers());
+console.log(fetchData());
 
 // task-2
 import { result } from './generics/2';
 
-console.log(result);
+console.log('Result:', result);
 
 // task-3
 import { mergedObj } from './generics/3';
 
-console.log(mergedObj);
+console.log('MergedObj:', mergedObj);
 
 // task-4
 import { createOrUpdateUser } from './generics/4';
@@ -69,18 +69,18 @@ const updatedUserInfo = createOrUpdateUser({
   password: 'newPassword123' 
 });
 
-console.log(updatedUserInfo);
+console.log('UpdatedUserInfo:', updatedUserInfo);
 
 // task-5
 import { UserRole, RoleDescription } from './generics/5';
 
-console.log(UserRole);
-console.log(RoleDescription);
+console.log('UseRole:', UserRole);
+console.log('RoleDescription:', RoleDescription);
 
 // task-6
 import { formData, paramsData } from './generics/6';
 
-console.log(formData);
-console.log(paramsData);
+console.log('FormData:', formData);
+console.log('ParamsData:', paramsData);
 
 
